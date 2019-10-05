@@ -8,6 +8,10 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+body {
+  background: #f5f8fa;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -90,4 +94,15 @@ form.form-delete {
       color: $green;
     }
   }  
+}
+
+.post {
+  padding: 20px 0;
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba($black, .1);
+  }
+}
+
+[v-cloak] {
+  display: none;
 }

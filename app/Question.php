@@ -86,7 +86,12 @@ class Question extends Model
 
     public function getExcerptAttribute()
     {
-        return str_limit(strip_tags($this->bodyHtml()), 300);
+        return $this->excerpt(250);
+    }
+
+    public function excerpt($length)
+    {
+        return str_limit(strip_tags($this->bodyHtml()), $length);
     }
 
     private function bodyHtml()
