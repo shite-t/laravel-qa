@@ -4592,12 +4592,13 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.32rem;
-  padding-bottom: 0.32rem;
+  padding-top: 3rem;
+  padding-bottom: 0.72rem;
   margin-right: 1rem;
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
+  
 }
 
 .navbar-brand:hover,
@@ -10511,3 +10512,8 @@ form.form-delete {
   display: none;
 }
 
+.logo{ background-image:url(logo_qa.jpg);
+  width: 30%;
+  height: 30%;
+  background-size: cover;
+  background-position: 20% 40%;}
