@@ -29,6 +29,6 @@
         "autosize": "^4.0.2",
         "markdown-it": "^10.0.0",
         "markdown-it-prism": "^2.0.3",
-        "prismjs": "^1.17.1"
+        "prismjs": "^1.24.0"
     }
 }
